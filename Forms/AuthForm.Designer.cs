@@ -41,7 +41,7 @@
 			this.labelLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.labelLogin.Location = new System.Drawing.Point(51, 52);
 			this.labelLogin.Name = "labelLogin";
-			this.labelLogin.Size = new System.Drawing.Size(68, 25);
+			this.labelLogin.Size = new System.Drawing.Size(55, 20);
 			this.labelLogin.TabIndex = 0;
 			this.labelLogin.Text = "Логин";
 			// 
@@ -52,7 +52,7 @@
 			this.labelPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.labelPassword.Location = new System.Drawing.Point(51, 105);
 			this.labelPassword.Name = "labelPassword";
-			this.labelPassword.Size = new System.Drawing.Size(80, 25);
+			this.labelPassword.Size = new System.Drawing.Size(67, 20);
 			this.labelPassword.TabIndex = 1;
 			this.labelPassword.Text = "Пароль";
 			// 
@@ -62,7 +62,7 @@
 			this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.textBox1.Location = new System.Drawing.Point(152, 53);
 			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(237, 27);
+			this.textBox1.Size = new System.Drawing.Size(237, 23);
 			this.textBox1.TabIndex = 2;
 			// 
 			// textBox2
@@ -71,12 +71,12 @@
 			this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
 			this.textBox2.Location = new System.Drawing.Point(152, 106);
 			this.textBox2.Name = "textBox2";
-			this.textBox2.Size = new System.Drawing.Size(237, 27);
+			this.textBox2.Size = new System.Drawing.Size(237, 23);
 			this.textBox2.TabIndex = 3;
 			// 
 			// buttonEnter
 			// 
-			this.buttonEnter.Location = new System.Drawing.Point(152, 166);
+			this.buttonEnter.Location = new System.Drawing.Point(152, 159);
 			this.buttonEnter.Name = "buttonEnter";
 			this.buttonEnter.Size = new System.Drawing.Size(188, 37);
 			this.buttonEnter.TabIndex = 0;
@@ -87,7 +87,7 @@
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(454, 245);
+			this.ClientSize = new System.Drawing.Size(454, 232);
 			this.Controls.Add(this.buttonEnter);
 			this.Controls.Add(this.textBox2);
 			this.Controls.Add(this.textBox1);

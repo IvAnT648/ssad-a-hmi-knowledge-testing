@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Knowledge_Testing;
 
 namespace Knowledge_Testing.Forms
 {
@@ -21,6 +22,9 @@ namespace Knowledge_Testing.Forms
 		{
 			var loginForm = new AuthForm();
 			loginForm.ShowDialog();
+			if (!Program.IsLoggedIn()) {
+				Application.Exit();
+			}
 		}
 	}
 }
