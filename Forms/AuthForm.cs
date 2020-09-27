@@ -16,5 +16,19 @@ namespace Knowledge_Testing.Forms
 		{
 			InitializeComponent();
 		}
+
+		private void buttonEnter_Click(object sender, EventArgs e)
+		{
+			if (login()) {
+				Close();
+			} else {
+				MessageBox.Show("Неверный логин или пароль!", "Ошибка входа", MessageBoxButtons.OK, MessageBoxIcon.Error);
+			}
+		}
+
+		private bool login()
+		{
+			return false;
+		}
 	}
 }
